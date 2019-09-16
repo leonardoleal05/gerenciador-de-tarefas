@@ -11,9 +11,13 @@ import { TarefasModule } from './tarefas';
   ],
   imports: [
     BrowserModule,
+    
+    TarefasModule,
+
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
